@@ -41,9 +41,9 @@ footer {
     min-height: 100vh;
 }
 
-.section--height-90 {
-    min-height: 90vh;
-}
+/*.section--height-90 {*/
+/*    min-height: 90vh;*/
+/*}*/
 
 .section--height-50 {
     min-height: 50vh;
@@ -57,9 +57,9 @@ footer {
     min-height: 25vh;
 }
 
-.row--height-20 {
-    min-height: 20vh;
-}
+/*.row--height-20 {*/
+/*    min-height: 20vh;*/
+/*}*/
 
 
 /* Header 
@@ -74,7 +74,7 @@ nav a {
 }
 
 .header__text {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 /*.header__text-title {*/
@@ -91,7 +91,7 @@ nav a {
 /*}*/
 
 .header__scroll {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 /*.header__scroll-btn {*/
@@ -131,14 +131,19 @@ nav a {
     border: none;
 }
 
-.close {
-    font-size: 1.5rem;
+.modal-close {
+    margin-right: 5px;
+}
+
+.modal-close--mod {
+    font-size: 1rem;
     font-weight: 200;
     color: white;
     text-shadow: none;
+    text-transform: uppercase;
 }
 
-.modal-close:hover {
+.modal-close--mod:hover {
     color: white;
     text-decoration: underline;
 }
@@ -148,17 +153,17 @@ nav a {
     border-color: white;
     border-width: 10px;
     background-color: #686669;
-    border-radius: 200px;
-    height: 300px;
-    width: 300px;
-}
-
-.modal-image {
     border-radius: 100px;
     height: 200px;
     width: 200px;
-    margin-top: 40px;
-    margin-left: 40px;
+}
+
+.modal-image {
+    border-radius: 75px;
+    height: 125px;
+    width: 125px;
+    margin-top: 28px;
+    margin-left: 28px;
     
 }
 
