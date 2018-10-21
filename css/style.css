@@ -18,11 +18,14 @@
 
 
 header {
-    background-color: #ffc0cb;
+    background-image: url("../media/images/header_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
-    background-color: #ffc0cb;
+    background-color: white;
 }
 
 footer {
@@ -32,21 +35,21 @@ footer {
 /* Grid 
 -------------------- */
 
-.container-fluid {
+/*.container-fluid {*/
     /*padding-left: 0px;*/
     /*padding-right: 0px;*/
-}
+/*}*/
 
 .section--height-100 {
     min-height: 100vh;
 }
 
-/*.section--height-90 {*/
-/*    min-height: 90vh;*/
-/*}*/
-
 .section--height-50 {
     min-height: 50vh;
+}
+
+.row--height-75 {
+    min-height: 75vh;
 }
 
 .row--height-50 {
@@ -75,20 +78,31 @@ nav a {
 
 .header__text {
     margin-top: 80px;
+    padding: 40px;
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    border: 3px solid #f1f1f1;
 }
 
-/*.header__text-title {*/
-/*    margin-top: 10px;*/
-/*}*/
+.header__text-subtitle {
+    margin-top: 20px;
+}
 
-/*.header__text-subtitle {*/
-/*    margin-top: 10px;*/
-/*}*/
+.header__btn {
+    margin-top: 100px;
+}
 
-/*.header__btn {*/
-    /*margin-top: 20px;*/
-    /*min-height: 20vh;*/
-/*}*/
+.btn {
+    background-color: #ff6680;
+    border-color: white;
+    border-radius: 0rem;
+}
+
+.btn:hover {
+    background-color: white;
+    border-color: #ff6680;
+    color: #ff6680;
+}
 
 .header__scroll {
     margin-top: 20px;
