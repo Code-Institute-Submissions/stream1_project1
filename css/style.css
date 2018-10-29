@@ -1,8 +1,10 @@
 /* For layout purposes only 
 -------------------- */
-.section-1__box {
-    height: 100%;
-}
+/*.section-1__box {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: #008000;*/
+/*}*/
 
 .section-2__box {
     height: 100%;
@@ -31,6 +33,11 @@ main {
 footer {
     background-color: #ffc0cb;
 }
+
+/*img {*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*}*/
 
 /* Grid 
 -------------------- */
@@ -93,15 +100,15 @@ nav a {
 }
 
 .btn {
-    background-color: #ff6680;
+    background-color: #008000;
     border-color: white;
     border-radius: 0rem;
 }
 
 .btn:hover {
     background-color: white;
-    border-color: #ff6680;
-    color: #ff6680;
+    border-color: #008000;
+    color: #008000;
 }
 
 .header__scroll {
@@ -178,11 +185,100 @@ nav a {
     width: 125px;
     margin-top: 28px;
     margin-left: 28px;
-    
 }
 
 .modal-title {
     text-align: center;
     margin: 10px;
     color: white;
+}
+
+
+.sec-1__box-1 {
+    background-color: #003380;
+}
+
+.sec-1__box-1-text {
+    margin-top: 80px;
+    padding: 40px;
+    color: white;
+}
+
+@media (max-width: 576px) {
+    .sec-1__box-1-text {
+        margin-top: 0px;
+        padding: 0px;
+    }
+}
+
+/*.bg-image {*/
+/*    opacity: 0.6;*/
+/*}*/
+
+.sec-1__box-2 {
+    background-image: url("../media/images/sec-1__box-2-code.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-1__box-2-content {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    color: white;
+}
+.sec-1__box-2-content img {
+    width: 80%;
+    height: auto;
+}
+
+.sec-1__box-3 {
+    background-image: url("../media/images/sec-1__box-3-quote.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-1__box-3-content {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: auto;
+    color: white;
+}
+
+.fa-quote-left {
+    font-size: 2rem;
+}
+
+.sec-1__box-3-content h2 {
+    font-size: 4vw;
+}
+
+.fa-quote-right {
+    font-size: 2rem;
+}
+
+
+
+.sec-2__box-1 {
+    background-color: #008000;
+}
+
+.sec-2__box-1-text {
+    margin-top: 80px;
+    padding: 40px;
+    color: white;
+}
+
+.sec-2__box-2 {
+    background-image: url("../media/images/sec-2__box-2-wood.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
