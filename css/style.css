@@ -105,10 +105,6 @@ nav a {
     }
 }
 
-/*.bg-image {*/
-/*    opacity: 0.6;*/
-/*}*/
-
 .sec-1__box-2 {
     background-image: url("../media/images/sec-1__box-2-code.jpg");
     background-position: center;
@@ -209,12 +205,18 @@ nav a {
 }
 
 .sec-2__box-2 {
-    background-image: url("../media/images/sec-2__box-2-wood.jpg");
-    background-position: center;
+    background-image: url("../media/images/jigsaw_desktop.jpg");
+    background-position: 50% 56%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+@media (max-width: 768px) {
+    .sec-2__box-2 {
+    background-image: url("../media/images/jigsaw_mobile.jpg");
+    background-position: 50% 60%;
+    }
+}    
 
 .sec-2__box-3 {
     background-image: url("../media/images/sec-2__box-3-dino.jpg");
@@ -246,10 +248,10 @@ nav a {
 }
 
 .sec-2__box-6 {
-    background-image: url("../media/images/sec-2__box-2-wood.jpg");
+    background-image: url("../media/images/paraphernalia.jpg");
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-size: contain;
 }
 
 
@@ -268,10 +270,11 @@ nav a {
 /* Hover Reveal Effect
 -------------------- */
 .hover p {
+    color: white;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 5%;
-    font-size: 1.5vw;
+    font-size: 25px;
     visibility: hidden;
 }
 
@@ -282,8 +285,15 @@ nav a {
 @media (max-width: 768px) {
     .hover p {
         visibility: visible;
+        font-size: 20px;
     }
 }
+
+/*@media (max-width: 576px) {*/
+/*    .hover p {*/
+/*        font-size: 20px;*/
+/*    }*/
+/*}*/
 
 .hover:hover p {
     visibility: visible;
@@ -293,6 +303,21 @@ nav a {
     background: rgb(0,0,0,0.5);
 }
 
+.project-desc {
+    font-size: 15px;
+}
+
+/*@media (max-width: 768px) {*/
+/*    .project-desc {*/
+/*    font-size: 15px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 576px) {*/
+/*    .project-desc {*/
+/*    font-size: 15px;*/
+/*    }*/
+/*}*/
 
 /* Section 3 Box 9 
 -------------------- */
@@ -320,15 +345,23 @@ nav a {
     margin-top: 20px;
 }
 
-.footer p {
+.footer h4 {
     margin-top: 20px;
+}
+
+.footer ul {
+    margin-top: 40px;
+}
+
+.footer p {
+    margin-top: 120px;
 }
 
 /* Modal 
 -------------------- */
 .modal-content {
-    background-color: rgb(0,0,0,0);
-    border: none;
+    background-color: #686669;
+    border-radius: 0rem;
 }
 
 .modal-close {
