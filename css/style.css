@@ -68,15 +68,15 @@ nav a {
 }
 
 .btn {
-    background-color: #008000;
+    background-color: #F6C0D0;
     border-color: white;
     border-radius: 0rem;
 }
 
 .btn:hover {
     background-color: white;
-    border-color: #008000;
-    color: #008000;
+    border-color: #F6C0D0;
+    color: #F6C0D0;
 }
 
 .header__scroll {
@@ -250,18 +250,18 @@ nav a {
 /*}*/
 
 .sec-2__box-2 {
-    background-image: url("../media/images/jigsaw_desktop.jpg");
-    background-position: 50% 56%;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../media/images/jigsaw.jpg");
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-size: contain;
 }
 
-@media (max-width: 768px) {
-    .sec-2__box-2 {
-    background-image: url("../media/images/jigsaw_mobile.jpg");
-    background-position: 50% 60%;
-    }
-}    
+/*@media (max-width: 768px) {*/
+/*    .sec-2__box-2 {*/
+/*    background-image: url("../media/images/jigsaw_mobile.jpg");*/
+/*    background-position: 50% 60%;*/
+/*    }*/
+/*}    */
 
 .sec-2__box-3 {
     background-image: url("../media/images/sec-2__box-3-dino.jpg");
@@ -367,7 +367,7 @@ nav a {
 /* Section 3 Box 9 
 -------------------- */
 .sec-3__box-9 {
-    background-color: white;
+    background-color: #8E7C93;
 }
 
 .sec-3__box-9 p {
@@ -383,7 +383,7 @@ nav a {
 /* Footer 
 -------------------- */
 .footer {
-    background-color: #cccccc;
+    background-color: #233451;
 }
 
 .footer img {
@@ -405,7 +405,7 @@ nav a {
 /* Modal 
 -------------------- */
 .modal {
-    background-color: rgb(0,255,0,0.5);
+    background-color: rgb(246, 192, 208, 0.8);
 }
 
 .modal-content {
