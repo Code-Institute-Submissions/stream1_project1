@@ -1,3 +1,6 @@
+/* Base Styles 
+-------------------- */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'PT Sans', sans-serif;
     color: #FFFFFF;
@@ -16,12 +19,9 @@ a:hover {
     color: #F6C0D0;
 }
 
-header {
-    background-image: url("../media/images/header_image.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+/* Section / Row Heights 
+-------------------- */
 
 .section_height-100 {
     min-height: 100vh;
@@ -46,34 +46,23 @@ header {
 
 /* Header 
 -------------------- */
-/*nav a {*/
-/*    color: white;*/
-/*}*/
 
 .fas.fa-bars{
     font-size: 2rem;
     color: #FFFFFF;
 }
 
-.header_box {
-    /*margin-top: 80px;*/
-    /*padding: 40px;*/
-    background-color: rgba(0,0,0, 0.4);
-    /*color: white;*/
-    border: 3px solid #FFFFFF;
+header {
+    background-image: url("../media/images/header_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/*.header__text-title {*/
-/*    margin-top: 20px;*/
-/*}*/
-
-/*.header__text-subtitle {*/
-/*    margin-top: 20px;*/
-/*}*/
-
-/*.header__btn {*/
-/*    margin-top: 100px;*/
-/*}*/
+.header_box {
+    background-color: rgba(0,0,0, 0.4);
+    border: 3px solid #FFFFFF;
+}
 
 .btn {
     background-color: #F6C0D0;
@@ -87,16 +76,6 @@ header {
     color: #F6C0D0;
 }
 
-/*.header__scroll {*/
-/*    margin-top: 20px;*/
-/*}*/
-
-/*.header__scroll-text p{*/
-/*    margin-bottom: 0.5rem;*/
-/*    text-transform: uppercase;*/
-/*    color: white;*/
-/*}*/
-
 .fas.fa-caret-square-down {
     font-size: 1.5rem;
     color: #FFFFFF;
@@ -105,33 +84,14 @@ header {
 
 /* Section 1 
 -------------------- */
+
 .sec-1_box-1 {
     background-color: #233451;
 }
 
-/*.sec-1__box-1-text {*/
-/*    margin-top: 20px;*/
-/*    padding: 20px;*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .sec-1__box-1-text {*/
-/*        margin-top: 10px;*/
-/*        padding: 10px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 576px) {*/
-/*    .sec-1__box-1-text {*/
-/*        margin-top: 5px;*/
-/*        padding: 5px;*/
-/*    }*/
-/*}*/
-
 .sec-1_box-1-text {
     font-size: 2rem;
     line-height: 3.2rem;
-    /*color: white;*/
 }
 
 @media (max-width: 768px) {
@@ -148,7 +108,6 @@ header {
 .sec-1_box-2-text {
     font-size: 2rem;
     line-height: 3.2rem;
-    /*color: white;*/
 }
 
 @media (max-width: 768px) {
@@ -158,76 +117,9 @@ header {
     }
 }
 
-/*@media (max-width: 576px) {*/
-/*    .sec-1__box-1-text h3 {*/
-/*       font-size: 1.5rem;*/
-/*        line-height: 2.2rem; */
-/*    }*/
-/*}*/
-
-
-
-/*.sec-1__box-2-text {*/
-/*    margin-top: 80px;*/
-/*    padding: 40px;*/
-    /*color: white;*/
-/*}*/
-
-/*@media (max-width: 576px) {*/
-/*    .sec-1__box-2-text {*/
-/*        margin-top: 0px;*/
-/*        padding: 0px;*/
-/*    }*/
-/*}*/
-
-/*.sec-1__box-2 {*/
-/*    background-image: url("../media/images/sec-1__box-2-code.jpg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
-
 .sec-1_box-3 {
     background-color: #8E7C93;
 }
-
-/*.sec-1__box-3 h2 {*/
-/*    margin-top: 10px;*/
-/*    margin-left: 10px;*/
-/*    color: white;*/
-/*}*/
-
-/*.sec-1__box-2-content {*/
-/*    position: absolute;*/
-/*    top: 10%;*/
-/*    bottom: 10%;*/
-/*    left: 10%;*/
-/*    width: 80%;*/
-/*    height: auto;*/
-/*    color: white;*/
-/*}*/
-
-/*.sec-1__box-2-content img {*/
-/*    margin-top: 20px;*/
-/*    width: 80%;*/
-/*    height: auto;*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .sec-1__box-2-content img {*/
-/*        margin-top: 10px;*/
-/*        width: 50%;*/
-/*        height: auto;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 576px) {*/
-/*    .sec-1__box-2-content img {*/
-/*        margin-top: 0px;*/
-/*        width: 80%;*/
-/*        height: auto;*/
-/*    }*/
-/*}*/
 
 .sec-1_box-4 {
     background-color: #8E7C93;
@@ -242,65 +134,13 @@ header {
     }
 }
 
-/*.sec-1__box-3 {*/
-/*    background-image: url("../media/images/sec-1__box-3-quote.jpg");*/
-/*    background-position: center;*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*}*/
-
-/*.sec-1__box-3-content {*/
-/*    position: absolute;*/
-/*    top: 10%;*/
-/*    bottom: 10%;*/
-/*    left: 10%;*/
-/*    width: 80%;*/
-/*    height: auto;*/
-/*    color: white;*/
-/*}*/
-
-/*@media (max-width: 768px) {*/
-/*    .sec-1__box-3-content {*/
-/*        top: 20%;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 576px) {*/
-/*    .sec-1__box-3-content {*/
-/*        top: 30%;*/
-/*    }*/
-/*}*/
-
-/*.fa-quote-left {*/
-/*    font-size: 3vw;*/
-/*}*/
-
-/*.sec-1__box-3-content h2 {*/
-/*    font-size: 3vw;*/
-/*}*/
-
-/*.fa-quote-right {*/
-/*    font-size: 3vw;*/
-/*}*/
-
 
 /* Section 2 Top
 -------------------- */
+
 .sec-2_box-1 {
     background-color: #D0A5C0;
 }
-
-/*.sec-2__box-1 h2 {*/
-/*    margin-top: 10px;*/
-/*    margin-left: 10px;*/
-/*    color: white;*/
-/*}*/
-
-/*.sec-2__box-1 p {*/
-/*    margin-top: 10px;*/
-/*    margin-left: 10px;*/
-/*    color: white;*/
-/*}*/
 
 .sec-2_box-2 {
     background-image: url("../media/images/jigsaw.jpg");
@@ -309,15 +149,8 @@ header {
     background-size: cover;
 }
 
-/*@media (max-width: 768px) {*/
-/*    .sec-2__box-2 {*/
-/*    background-image: url("../media/images/jigsaw_mobile.jpg");*/
-/*    background-position: 50% 60%;*/
-/*    }*/
-/*}    */
-
 .sec-2_box-3 {
-    background-image: url("../media/images/sec-2__box-3-dino.jpg");
+    background-image: url("../media/images/placement-dino.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -327,23 +160,13 @@ header {
     background-color: #D0A5C0;
 }
 
+
 /* Section 2 Bottom
 -------------------- */
+
 .sec-2_box-5 {
     background-color: #F6C0D0;
 }
-
-/*.sec-2__box-5 h2 {*/
-/*    margin-top: 10px;*/
-/*    margin-left: 10px;*/
-/*    color: white;*/
-/*}*/
-
-/*.sec-2__box-5 p {*/
-/*    margin-top: 10px;*/
-/*    margin-left: 10px;*/
-    /*color: white;*/
-/*}*/
 
 .sec-2_box-6 {
     background-image: url("../media/images/paraphernalia.jpg");
@@ -352,9 +175,8 @@ header {
     background-size: contain;
 }
 
-
 .sec-2_box-7 {
-    background-image: url("../media/images/sec-2__box-3-dino.jpg");
+    background-image: url("../media/images/placement-dino.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -368,10 +190,6 @@ header {
 /* Hover Reveal Effect
 -------------------- */
 .hover p {
-    /*color: white;*/
-    /*position: absolute;*/
-    /*top: 50%;*/
-    /*left: 5%;*/
     font-size: 25px;
     visibility: hidden;
 }
@@ -387,12 +205,6 @@ header {
     }
 }
 
-/*@media (max-width: 576px) {*/
-/*    .hover p {*/
-/*        font-size: 20px;*/
-/*    }*/
-/*}*/
-
 .hover:hover p {
     visibility: visible;
 }
@@ -405,64 +217,26 @@ header {
     font-size: 15px;
 }
 
-/*@media (max-width: 768px) {*/
-/*    .project-desc {*/
-/*    font-size: 15px;*/
-/*    }*/
-/*}*/
-
-/*@media (max-width: 576px) {*/
-/*    .project-desc {*/
-/*    font-size: 15px;*/
-/*    }*/
-/*}*/
 
 /* Section 3 Box 9 
 -------------------- */
+
 .sec-3_box-9 {
     background-color: #8E7C93;
 }
 
-/*.sec-3__box-9 p {*/
-/*    font-size: 25px;*/
-/*    margin-top: 40px;*/
-/*}*/
-
-/*.sec-3__box-9 button {*/
-/*    margin-top: 20px;*/
-/*}*/
-
 
 /* Footer 
 -------------------- */
+
 .footer {
     background-color: #233451;
 }
 
-/*.footer img {*/
-/*    margin-top: 20px;*/
-/*}*/
-
-/*.footer h4 {*/
-/*    margin-top: 20px;*/
-/*    color: white;*/
-/*}*/
-
-/*.footer ul li {*/
-/*    margin-top: 40px;*/
-/*}*/
-
-/*.footer ul li a {*/
-/*    color: white;*/
-/*}*/
-
-/*.footer p {*/
-/*    margin-top: 40px;*/
-/*    color: white;*/
-/*}*/
 
 /* Modal 
 -------------------- */
+
 .modal {
     background-color: rgb(246, 192, 208, 0.8);
 }
