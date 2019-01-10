@@ -13,9 +13,9 @@ This site is a static site. Rather than build it as a multi-page site, I opted t
 
 I approached this project methodically, first by understanding whom my eventual audience would be (i.e. course graders and eventually recruiters and employers), secondly by creating low fidelity wireframes and finally, a walking skeleton in code using semantic elements to structure the HTML code better. The result, I feel, is clean legible code, a good responsive layout and easily consumable, visual content.
 
-**No template was used in the building of this site**
+**No template was used in the building of this site.**
 
-Wireframes for this project can be viewed in the "wireframe" folder above.
+Wireframes for this project can be viewed in the "wireframe" folder above. Wireframes were created using [Balsamiq](https://balsamiq.com/).
 
 User requirements/stories are met in the following way;
 - As a recruiter/employer or simply a site visitor, I want to see other sites built by Alex, so I can evaluate his skills. 
@@ -49,7 +49,7 @@ The best place to find my contact details is by clicking on the "Say Hello" butt
 
 ## Features
 
-### Existing Features
+### Existing features
 - Collapsible navigation - allows users to view downloadable PDFs., on click of burger menu.
 - Downloadable portfolio and cv in PDF format - allows users to download PDFs, on click of link and subsequent use of browser native controls.
 - Links to other projects - allows users to visit other project sites, on click of link.
@@ -57,7 +57,6 @@ The best place to find my contact details is by clicking on the "Say Hello" butt
 ### Features left to implement
 - Links to social media - allows users to visit related social media sites, on click of link.
 - Links to other projects as I finish them - especially the third box in both the front-end and back-end section.
-
 
 ## Testing
 
@@ -72,7 +71,7 @@ User testing was carried out to ensure;
 
 This site is hosted on GitHub pages and is deployed from the master branch.
 
-In order to run this site locally, in your terminal, type or paste; git clone https://github.com/al3xk3nny/stream1_project1.git
+In order to run this site locally, in your terminal, type or paste; git clone https://github.com/al3xk3nny/stream1_project1
 
 ## Credits
 
@@ -87,3 +86,5 @@ In order to run this site locally, in your terminal, type or paste; git clone ht
 I would like to acknowledge the following sites I referenced in the research phase of my approach to this project.
 - For inspiration for the single-page scrolling layout and grid structure used on my site, I was influenced by what I saw on [JDC Design Studio](http://www.jdcdesignstudio.com/) portfolio site. I also liked the conversational tone of his site.
 - For inspiration for the contact modal used on my site, I was influenced by what I saw on [Victoria Spicer](https://vspicer.com/about/) portfolio site. You can see how she used this effect if you click on the "Contact" link on her page. I also liked her bold, but clean introduction paragraph, which I took reference from for mine.
+
+I would also like to thank my lecturer, Matt Rudge for his dedicated and competent direction throughout the duration of stream 1 and my TA, Michael Park for his advice and encouragement during this project.
