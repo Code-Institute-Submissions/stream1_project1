@@ -39,22 +39,22 @@ a:hover {
 /* Header 
 -------------------- */
 
-.fas.fa-bars {
-    font-size: 2rem;
-    color: #FFFFFF;
-}
+/*.fas.fa-bars {*/
+/*    font-size: 2rem;*/
+/*    color: #FFFFFF;*/
+/*}*/
 
-@media (max-width: 576px) {
-    .fas.fa-bars {
-        font-size: 1.5rem;
-    }
-}
+/*@media (max-width: 576px) {*/
+/*    .fas.fa-bars {*/
+/*        font-size: 1.5rem;*/
+/*    }*/
+/*}*/
 
-@media (max-width: 576px) {
-    .nav-link {
-        font-size: 0.75rem;
-    }
-}
+/*@media (max-width: 576px) {*/
+/*    .nav-link {*/
+/*        font-size: 0.75rem;*/
+/*    }*/
+/*}*/
 
 header {
     background-image: url("../media/images/header_image.jpg");
@@ -68,15 +68,15 @@ header {
     border: 3px solid #FFFFFF;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .header_box-title {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .header_box-sub-title {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 }
 
@@ -93,11 +93,15 @@ header {
     color: #F6C0D0;
 }
 
-@media (max-width: 576px) {
+.btn:focus {
+    box-shadow: none;
+}
+
+
+@media (max-width: 540x) {
     .header_box-button {
         font-size: 1rem;
     }
-    
 }
 
 .fas.fa-caret-square-down {
@@ -117,7 +121,7 @@ header {
     line-height: 3rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .sec-1_box-1-text {
         font-size: 1.25rem;
         line-height: 2.75rem; 
@@ -133,7 +137,7 @@ header {
     line-height: 3rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .sec-1_box-2-text {
         font-size: 1.25rem;
         line-height: 2.75rem;
@@ -148,13 +152,13 @@ header {
     background-color: #8E7C93;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .sec-1_box-4-text {
         width: 80%;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .sec-1_box-4-text {
         width: 100%;
     }
@@ -209,7 +213,10 @@ header {
 }
 
 .sec-2_box-8 {
-    background-color: #F6C0D0;
+    background-image: url("../media/images/rightplace.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -224,17 +231,23 @@ header {
     color: #FFFFFF;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .hover p {
-        /*font-size: 2rem;*/
+        font-size: 2rem;
         visibility: visible;
+        background: rgb(0,0,0,0.5);
+        margin: 30px;
+        padding: 10px;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 720px) {
     .hover p {
         font-size: 1rem;
         visibility: visible;
+        background: rgb(0,0,0,0.5);
+        margin: 30px;
+        padding: 10px;
     }
 }
 
@@ -250,7 +263,13 @@ header {
     font-size: 1.25rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 960px) {
+   .project-desc {
+        font-size: 1rem;
+    } 
+}
+
+@media (max-width: 720px) {
    .project-desc {
         font-size: 0.75rem;
     } 
@@ -263,7 +282,7 @@ header {
     background-color: #8E7C93;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .sec-3_box-9-text {
         font-size: 1.25rem;
     }
@@ -276,7 +295,7 @@ header {
     background-color: #233451;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .footer-1-text {
         font-size: 1.25rem;
     }
@@ -286,7 +305,7 @@ header {
     background-color: #233451;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .footer-2-text {
         font-size: 0.75rem;
     }
@@ -327,7 +346,7 @@ header {
     text-align: center;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 540px) {
     .modal-title {
         font-size: 2rem;
     }

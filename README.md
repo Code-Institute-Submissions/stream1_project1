@@ -79,6 +79,7 @@ In order to run this site locally, in your terminal, type or paste; git clone ht
 - Placement images used were sourced from [Pexels](https://www.pexels.com/).
 - Some logos and icons used were sourced from Google Images, appropriately filtered and labelled for re-use.
 - Other icons used were sourced from [Font Awesome](https://fontawesome.com/).
+- The colour palette was generated using [Coolors](https://coolors.co/). A reference of the colour palette used can be viewed in the "media/images" folder above.
 - Fonts used were sourced from Google Fonts.
 
 ### Acknowledgements
