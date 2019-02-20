@@ -187,7 +187,10 @@ header {
 }
 
 .sec-2_box-4 {
-    background-color: #D0A5C0;
+    background-image: url("../media/images/mathquiz.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

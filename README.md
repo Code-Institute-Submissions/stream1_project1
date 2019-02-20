@@ -24,7 +24,7 @@ The best place to see the other sites I have built is to go to the showcase area
 
 - As a recruiter/employer, I want a little more detail regarding Alex's project work or employment history, so that I can further research his suitability.
 
-The best place to seek more information on my project work or employment history, is to download the provided PDFs. for either my portfolio, or my cv. These are available through links in the navigation or in the footer section of the site.
+The best place to seek more information on my project work or employment history, is to download the provided PDFs. for either my portfolio, or my cv. These are available through links in the footer section of the site.
 
 - As a recruiter/employer, I want to contact Alex, so that I can discuss opportunities.
 
@@ -50,8 +50,7 @@ The best place to find my contact details is by clicking on the "Say Hello" butt
 ## Features
 
 ### Existing features
-- Collapsible navigation - allows users to view downloadable PDFs., on click of burger menu.
-- Downloadable portfolio and cv in PDF format - allows users to download PDFs, on click of link and subsequent use of browser native controls.
+- Downloadable portfolio and cv in PDF format - allows users to download PDFs. on click of link and subsequent use of browser native controls.
 - Links to other projects - allows users to visit other project sites, on click of link.
 
 ### Features left to implement
@@ -60,7 +59,7 @@ The best place to find my contact details is by clicking on the "Say Hello" butt
 
 ## Testing
 
-Cross browser and multi-device testing was employed to test site responsiveness using [BrowserStack](https://www.browserstack.com).
+Cross browser and multi-device testing was employed to test site responsiveness using Google Chrome Developer Tools and [BrowserStack](https://www.browserstack.com).
 
 User testing was carried out to ensure;
 - All links worked as desired and where required opened in separate tabs.
